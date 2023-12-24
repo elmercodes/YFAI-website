@@ -16,5 +16,6 @@ urlpatterns = [
     
     path('terms-of-use', views.terms_of_use, name="terms-of-use"),
     
-    path('user-logout', views.user_logout, name="user-logout")
+    path('user-logout', views.user_logout, name="user-logout"),
+    
 ]
