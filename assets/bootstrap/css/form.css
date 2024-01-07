@@ -1,0 +1,29 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+label {
+    color: white;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+label[for="message"] {
+    text-align: right;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+textarea {
+    width: 100%;
+    height: 250px;
+}

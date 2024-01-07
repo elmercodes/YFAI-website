@@ -42,3 +42,4 @@ instance/
 .venv
 env/
 venv/
+config_settings.py
